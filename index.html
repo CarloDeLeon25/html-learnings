@@ -7,8 +7,9 @@
 </head>
 <body>
     <h1>These are the things I have learned on studying HTML.</h1>
+    <br> 
         <div>
-            <h2>1. HTML Headings and Paragraph</h2>
+            <h2>HTML Headings and Paragraph</h2>
                 <div style="padding-left: 2em;">
                     <p>HTML headings displays the titles and subtitles on a webpage. HTML headings runs from h1 as the most important up to h6 as the least important. Paragraphs are the small non-bold texts that you can see here.</p>
                         <h1>h1</h1>
@@ -18,15 +19,17 @@
                         <h5>h5</h5>
                         <h6>h6</h6>
                     </div>
-        </div> 
+        </div>
+        <br> 
     <div>
-        <h2>2. HTML Elements</h2>
+        <h2>HTML Elements</h2>
             <div style="padding-left: 2em;">
                 <p>Upon writing the code, every HTML element must start with an opening tag and a closing tag- "<,>, and />"  </p>
             </div>
+            <br> 
     </div>
     <div>
-        <h2>3.HTML Attributes</h2>
+        <h2>HTML Attributes</h2>
             <div style="padding-left: 2em;">
                 <p>href attribute uses the a tag as hyperlink. <a href="http://www.google.com">This href attribute that will redirect you to google search.</a></p>
                 <p>src attribute embeds the image in an HTML page like this icon <img src="favicon-32x32.png"> and this icon can also contain the width and height attribute.<img src="favicon-32x32.png" width="40" height="50"> </p>
@@ -34,20 +37,22 @@
                 <p style="color: green;">style attribute can add color and such to a text like this one. </p>
                 <p title="this is a title attribute">title attribute only gives some extra information about the element</p>
             </div>
+            <br> 
     </div>
     <div>
-        <h2>4. HTML Styles</h2>
+        <h2>HTML Styles</h2>
             <div style="padding-left: 2em;">
-                <p>Background color sets the background of an HTML element. <p style="background-color: pink">This text has a background color.</p> </p>
-                <p>Text color sets the color of an HTML element. <p style="color: blue;">This text is color blue.</p></p>
-                <p>Fonts can also be styled using font-family property. <p style="font-family:Arial">This font has a different font style.</p></p>
-                <p>Font sizes can also be styled. <p style="font-size: 200%;">This text is bigger than the rest of the paragraph texts.</p></p>
+                <p>Background color sets the background of an HTML element. <span style="background-color: pink">This text has a background color.</span>  </p>
+                <p>Text color sets the color of an HTML element. <span style="color: blue;">This text is color blue.</span></p>
+                <p>Fonts can also be styled using font-family property. <span style="font-family:Arial">This font has a different font style.</span> </p>
+                <p>Font sizes can also be styled. <span style="font-size: 200%;">This text is bigger than the rest of the paragraph texts.</span> </p>
                 <p>Text allignment adjusts the horizontal allignment of texts. <p style="text-align: center;">This text is in the center of the webpage.</p></p>
                 <p>Basically, HTML styles plays the role of CSS. </p>
             </div>
+            <br> 
     </div>
     <div>
-        <h2>5. HTML Text Formatting</h2>
+        <h2>HTML Text Formatting</h2>
             <div style="padding-left: 2em;">
                 <p><b>This sample text is bold.</b></p>
                 <p><strong>This sample text uses the strong html tag. Visually, it has no difference with b tag</strong></p>
@@ -58,9 +63,10 @@
                 <p>The word delete in this paragraph is <del>striked</del> by a line with the use of del tag and another word is <ins>inserted</ins> with the use of ins tag.</p>
                 <p>The sub html tag will <sub>subscript</sub> a text and a sup html tag will <sup>superscript</sup> a text.</p>
             </div>
+            <br> 
     </div>
     <div>
-        <h2>6. HTML Quotation Element</h2>
+        <h2>HTML Quotation Element</h2>
             <div style="padding-left: 2em;">
                 <p>Blockquote quotations makes the broswer automatically indents the paragraph with the use of blockquote tag. <blockquote>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, cupiditate.</blockquote></p>
                 <p>Short quotations simply puts a quotation marks at the paragraph. It uses q tag. <q>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, optio.</q></p>
@@ -68,22 +74,182 @@
                 <p>Work title can properly use the html cite tag. Cite tag usually appears in italic. <cite>Mona Lisa</cite></p>
                 <p>Bi-Directional Override makes the text appear in reversed direction and uses the bdo tag. <bdo dir="rtl">This text is reversed.</bdo></p>
             </div>
+            <br> 
     </div>
     <div>
-        <h2>7. HTML Comments</h2>
+        <h2>HTML Comments</h2>
         <div style="padding-left: 2em;">
             <p>Comments can be used as a guide or reminders in a certain HTML code. Comments are not visible on the webpage.</p>
         </div>
+        <br> 
     </div>
     <div>
-        <h2>8. HTML Image maps</h2>
+        <h2>HTML Image maps</h2>
             <div style="padding-left: 2em;">
                 <p>Image map makes the image clickable. What I did is I made the whole spongebob picture clickable, then shows a patrick picture. It uses the tag map and href for the picture reference upon clicking.</p>
                 <img src="mgid_arc_imageassetref_nick.jpg" width="200" usemap="#workmap">
                 <map name="workmap">
                     <area shape="rect" coords="1,1,660,470" href="patrick.png">
-
                 </map> 
+               
+            </div>
+            <br> 
+
+    </div>
+    <div>
+        <h2>HTML Tables</h2>
+            <div style="padding-left:2em;">
+                <table>
+                    <style>
+                        table, th, td {
+                            border:1px solid black;
+                        }
+                    </style>
+                    <tr>
+                        <th>HTML Tag</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td>td tag.</td>
+                        <td>Every content in HTML Table data uses a td tag.</td>
+                    </tr>
+                    <tr>
+                        <td>tr tag.</td>
+                        <td>Every row in HTML Table uses a td tag.</td>
+                    </tr>
+                    <tr>
+                        <td>th tag.</td>
+                        <td>Table header in HTML Table uses a th tag.</td>
+                    </tr>    
+                </table>
+                <p>These elements in HTML Tables can be styled using different CSS properties.</p>
+            </div>
+            <br> 
+    </div>
+    <div>
+        <h2>HTML Lists</h2>
+            <div style="padding-left: 2em;">
+                <p>Unordered html list starts with ul tag and ends with li tag. The said list will be in bullet form.</p>
+                <ul>
+                    <li>Juan</li>
+                    <li>Jose</li>
+                    <li>Robert</li>
+                </ul>
+                <p>Order html list starts with ol tag and ends with li tag. The said list will be in numeric form.</p>
+                <ol>
+                    <li>Juan</li>
+                    <li>Jose</li>
+                    <li>Robert</li>
+                </ol>
+                <p>Description list starts with dl tag, followed by dt tag which declares the name, and dd tag </p>
+            </div>
+            <br> 
+    </div>
+    <div>
+        <h2>HTML Class and Id</h2>
+            <div style="padding-left:2em;">
+                <p>There can be multiple Class name in HTML and can be pointed out in CSS and Javascript at the same time. While HTML Id has to be unique, there can only be one id per html element.</p>
+            </div>
+            <br> 
+    </div>
+    <div>
+        <h2>HTML Iframe</h2>
+            <div style="padding-left:2em;">
+                <p>HTML Iframe is an inline frame- a webpage that is displayed inside a webpage.</p>
+                <iframe src="iframe-sample.html" style="border:none" width="400"></iframe>
+            </div>
+            <br> 
+    </div>
+    <div>
+        <h2>HTML Layout and Semantics </h2>
+            <div style="padding-left:2em;">
+                <style>
+                    *{
+                        padding: 0;
+                        margin: 0;
+                    }
+                    nav{
+                        
+                        background-color: #ffee93;
+                    }
+                    
+                    li{
+                        display: inline;
+                    }
+                    
+                    header{
+                        background-color: #abc4ff;
+                        padding: 30px;
+                        text-align: center;
+                        font-size: 3em;
+                        color: white;
+                    }
+                    section{
+                        background-color: #d1d1d1;
+                        padding: 2em;
+                    }
+                    article{
+                        background-color:#ffc09f ;
+                        padding: 2em;
+                    }
+                    footer{
+                        background-color: #ffee93;
+                        padding: 2em;
+                    }
+                </style>
+                <header>
+                    <h2>The header element tells about the content of a webpage.</h2>
+                </header>
+                <nav> The nav element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents.
+                    <ul>
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                    </ul>
+                    
+                </nav>
+                <section>The section HTML element represents a generic standalone section of a document, which doesn't have a more specific semantic element to represent it.</section>
+                <article>The article HTML element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable</article>
+                <footer>Footer usually contains related information about the author, copyrights, and such.</footer>
+            </div>
+            <br>       
+    </div>
+    <div>
+        <h2>HTML Forms</h2>
+            <div style="padding-left: 2em;">
+                <p>Text Fields</p>
+                    <form> 
+                        <label for="first-name">First Name:</label>
+                        <input type="text"><br>
+                        <label for="last-name">Last Name:</label>
+                        <input type="text"><br>
+                        <input type="submit">
+                              
+                    </form><br>
+                <p>Radio buttons</p>
+                    <form>
+                        <label for="number">Number</label> 
+                        <input type="radio"><br>
+                        <label for="letter">Letter</label>
+                        <input type="radio"><br>
+                        <input type="submit">
+                    </form> <br>
+                <p>Checkboxes</p>
+                    <form>
+                        <label for="car">Car</label>
+                        <input type="checkbox" name="vehicle" id="car"> <br>
+                        <label for="bike">Bike</label>
+                        <input type="checkbox" name="bike" id="bike"> <br>
+                        <input type="submit">
+                    </form> <br>
+                    <form>
+                        <label for="username">Username</label> 
+                        <input type="text"> <br>
+                        <label for="password">Password</label>
+                        <input type="password"> <br>
+                        <input type="submit" value="Log in">
+                    </form>
+                    
             </div>
     </div>
     
